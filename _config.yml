@@ -22,7 +22,7 @@ enable_smart_app_banner                   : true                                
 # Information About Yourself
 your_name                                 : Hugues Bomokin
 your_link                                 : https://emilbaehr.com
-your_city                                 : Toronto
+your_city                                 : # eg Ottawa, Canada
 email_address                             : huguesarnold@gmail.com
 linkedin_username                         :
 linkedin_company                          :
