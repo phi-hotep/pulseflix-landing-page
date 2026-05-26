@@ -128,4 +128,4 @@ If you have any questions about these Terms and Conditions, You can contact us:
 
 - By email: <huguesarnold@gmail.com>
 
-- By visiting this page on our website: [https://phi-hotep.github.io/pulseflix-landing-page/](https://phi-hotep.github.io/pulseflix-landing-page/)
+- By visiting this page on our website: [https://phi-hotep.github.io/pulseflix-landing-page/terms](https://phi-hotep.github.io/pulseflix-landing-page/terms/)
