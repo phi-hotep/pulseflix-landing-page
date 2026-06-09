@@ -56,9 +56,11 @@
                         </p>
                     </div>
                     <div class="downloadButtonsContainer">
-                        <a class="playStoreLink" href="{{ site.playstore_link | default: '#' }}"><img class="playStore"
+                        <!-- TODO: Replace '#' with your Google Play Store URL -->
+                        <a class="playStoreLink" href="#" onclick="showComingSoon(event)"><img class="playStore"
                                 src="assets/playstore.png"></a>
-                        <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore"
+                        <!-- TODO: Replace '#' with your App Store URL -->
+                        <a class="appStoreLink" href="#" onclick="showComingSoon(event)"><img class="appStore"
                                 src="assets/appstore.png"></a>
                         {% if site.web_app_link %}
                         <a class="webStoreLink" href="{{site.web_app_link}}" target="_blank"><img class="webStore"
@@ -72,6 +74,16 @@
             </div>
         </div>
     </div>
+    <div id="coming-soon-toast">Coming very soon!</div>
+
+    <script>
+        function showComingSoon(event) {
+            event.preventDefault();
+            var toast = document.getElementById('coming-soon-toast');
+            toast.classList.add('show');
+            setTimeout(function () { toast.classList.remove('show'); }, 2500);
+        }
+    </script>
 </body>
 
 </html>
