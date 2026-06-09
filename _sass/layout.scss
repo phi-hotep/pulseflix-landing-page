@@ -216,6 +216,13 @@ nav>ul li a:visited {
 	color: rgba($header-title-color, 0.6);
 }
 
+nav>ul li a.nav-disabled {
+	text-decoration: none;
+	color: rgba($header-title-color, 0.3);
+	cursor: default;
+	pointer-events: none;
+}
+
 nav>ul li a:hover,
 nav>ul li a:active {
 	text-decoration: none;
@@ -625,8 +632,35 @@ footer {
 	padding-bottom: 70px;
 }
 
+#coming-soon-toast {
+	position: fixed;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	padding: 12px 28px;
+	border-radius: 24px;
+	font-size: 15px;
+	white-space: nowrap;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+	z-index: 9999;
+}
+
+#coming-soon-toast.show {
+	opacity: 1;
+}
+
 .footerLinks a {
 	margin-right: 30px;
+}
+
+.footerLinks a.nav-disabled {
+	opacity: 0.3;
+	cursor: default;
+	pointer-events: none;
 }
 
 .footerLinks a:last-child {
