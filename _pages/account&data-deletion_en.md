@@ -15,7 +15,7 @@ This page explains how to permanently delete your PulseFlix account and the data
 
 Send an email to <hoteptechnology@gmail.com> **from the email address associated with your PulseFlix account**, with the subject line "Account deletion request".
 
-<a href="mailto:hoteptechnology@gmail.com?subject=Account%20deletion%20request">Email us to delete your account</a>
+<a id="deletion-request-link" href="mailto:hoteptechnology@gmail.com?subject=Account%20deletion%20request">Email us to delete your account</a>
 
 The email itself is the entire request; you do not need to include anything else in the message.
 
@@ -52,3 +52,55 @@ If you have any questions about account or data deletion, you can contact us:
 - By email: <hoteptechnology@gmail.com>
 
 - By visiting this page on our website: [https://phi-hotep.github.io/pulseflix-landing-page/delete-account](https://phi-hotep.github.io/pulseflix-landing-page/delete-account/)
+
+<script>
+    (function () {
+        var link = document.getElementById('deletion-request-link');
+        if (!link) return;
+
+        // The app appends the signed-in user's email (and optionally lang) as
+        // query parameters, e.g. /delete-account/?email=ada%40example.com&lang=fr
+        var params = new URLSearchParams(window.location.search);
+        var accountEmail = (params.get('email') || '').trim();
+
+        // Derive locale the same way the site declares it (<html lang>), with an
+        // optional ?lang= override so the app can request French explicitly.
+        var locale = params.get('lang') || document.documentElement.lang || 'en';
+        var isFrench = /^fr/i.test(locale);
+
+        var subject, body;
+        if (isFrench) {
+            subject = 'Demande de suppression de compte PulseFlix';
+            body = [
+                'Bonjour l\'équipe PulseFlix,',
+                '',
+                'Je souhaite demander la suppression définitive de mon compte PulseFlix ainsi que de toutes les données personnelles associées.',
+                '',
+                'E-mail du compte : ' + (accountEmail || '[indiquez l\'adresse e-mail utilisée pour vous connecter]'),
+                'Méthode de connexion : [Google / E-mail et mot de passe]',
+                '',
+                'Je comprends que cette demande sera traitée sous 30 jours, après quoi mon compte et toutes les données associées (films enregistrés, préférences, retours) seront définitivement supprimés.',
+                '',
+                'Merci.'
+            ].join('\n');
+        } else {
+            subject = 'PulseFlix Account Deletion Request';
+            body = [
+                'Hello PulseFlix team,',
+                '',
+                'I would like to request the permanent deletion of my PulseFlix account and all associated personal data.',
+                '',
+                'Account email: ' + (accountEmail || '[enter the email address you used to sign in]'),
+                'Sign-in method: [Google / Email & Password]',
+                '',
+                'I understand this request will be processed within 30 days, after which my account and all associated data (saved movies, preferences, and feedback) will be permanently deleted.',
+                '',
+                'Thank you.'
+            ].join('\n');
+        }
+
+        link.href = 'mailto:hoteptechnology@gmail.com'
+            + '?subject=' + encodeURIComponent(subject)
+            + '&body=' + encodeURIComponent(body);
+    })();
+</script>
