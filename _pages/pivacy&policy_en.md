@@ -190,6 +190,6 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 If you have any questions about this Privacy Policy, You can contact us:
 
-- By email: <huguesarnold@gmail.com>
+- By email: <hoteptechnology@gmail.com>
 
 - By visiting this page on our website: [https://phi-hotep.github.io/pulseflix-landing-page/privacy-policy](https://phi-hotep.github.io/pulseflix-landing-page/privacy-policy/)

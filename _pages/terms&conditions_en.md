@@ -126,6 +126,6 @@ By continuing to access or use Our Service after those revisions become effectiv
 
 If you have any questions about these Terms and Conditions, You can contact us:
 
-- By email: <huguesarnold@gmail.com>
+- By email: <hoteptechnology@gmail.com>
 
 - By visiting this page on our website: [https://phi-hotep.github.io/pulseflix-landing-page/terms](https://phi-hotep.github.io/pulseflix-landing-page/terms/)
