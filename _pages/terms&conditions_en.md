@@ -7,7 +7,7 @@ permalink: /terms/
 
 # Terms and Conditions
 
-Last updated: May 26, 2026
+Last updated: July 23, 2026
 
 Please read these terms and conditions carefully before using Our Service.
 
@@ -25,7 +25,7 @@ For the purposes of these Terms and Conditions:
 - __Application Store__ means the digital distribution service operated and developed by Apple Inc. (Apple App Store) or Google Inc. (Google Play Store) in which the Application has been downloaded.
 - __Affiliate__ means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
 
-- __Country__ refers to: Ontario,  Canada
+- __Country__ refers to: Canada
 - __Company__ (referred to as either "the Company", "We", "Us" or "Our" in these Terms and Conditions) refers to Pulseflix.
 
 - __Device__ means any device that can access the Service such as a computer, a cell phone or a digital tablet.
@@ -49,6 +49,12 @@ You represent that you are over the age of 18. The Company does not permit those
 
 Your access to and use of the Service is also subject to Our Privacy Policy, which describes how We collect, use, and disclose personal information. Please read Our Privacy Policy carefully before using Our Service.
 
+## Price and Future Paid Features
+
+The Service is currently offered free of charge. There are no subscriptions, purchases, or payments required to use the Application at this time.
+
+The Company reserves the right to introduce paid features or charges in the future, with notice. Any such terms, including pricing and payment conditions, will be presented to You before any charge applies, and no charge will be made without Your prior agreement.
+
 ## Links to Other Websites
 
 Our Service may contain links to third-party websites or services that are not owned or controlled by the Company.
@@ -63,11 +69,41 @@ The Service may display, include, make available, or link to content or services
 
 You acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with Your access to or use of any Third-Party Social Media Service, including any content, goods, or services made available through them. Your use of any Third-Party Social Media Service is governed by that Third-Party Social Media Service's terms and privacy policies.
 
+## Third-Party Content and Attribution
+
+The Service relies on third-party content and services to provide movie information and trailer playback.
+
+### The Movie Database (TMDB)
+
+__This product uses the TMDB API but is not endorsed or certified by TMDB.__
+
+All movie data, images, and metadata displayed in the Service are provided by [TMDB](https://www.themoviedb.org/) and are subject to TMDB's terms of use. The Company does not own this content and makes no representation or warranty as to its accuracy, completeness, or availability.
+
+### YouTube
+
+Movie trailers are played through the embedded YouTube player. Your use of the embedded player is subject to [YouTube's Terms of Service](https://www.youtube.com/t/terms) and [Google's Privacy Policy](https://policies.google.com/privacy).
+
+## User Content
+
+The Service may allow You to submit content, such as written feedback ("User Content").
+
+You are solely responsible for any User Content You submit. You agree not to submit User Content that is unlawful, offensive, defamatory, harassing, or that infringes the intellectual property or other rights of any third party.
+
+By submitting User Content, You grant the Company a limited, non-exclusive, royalty-free license to use, store, and review that content for the purpose of operating, maintaining, and improving the Service.
+
+The Company may review, moderate, or remove any User Content at its sole discretion, without prior notice.
+
 ## Termination
 
 We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
 
 Upon termination, Your right to use the Service will cease immediately.
+
+### Account Deletion
+
+You may request deletion of Your account and all associated data at any time, either through the [Account & Data Deletion]({{ '/delete-account/' | relative_url }}) page or by emailing <hoteptechnology@gmail.com> from the email address associated with Your account.
+
+Deletion requests are processed within 30 days. Deletion is permanent and cannot be undone.
 
 ## Limitation of Liability
 
@@ -87,7 +123,7 @@ Some jurisdictions do not allow the exclusion of certain types of warranties or 
 
 ## Governing Law
 
-The laws of the Country, excluding its conflicts of law rules, shall govern these Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.
+These Terms and Your use of the Service are governed by the laws of the Province of Ontario and the federal laws of Canada applicable therein, excluding their conflict of law rules. Your use of the Application may also be subject to other local, state, national, or international laws.
 
 ## Disputes Resolution
 
