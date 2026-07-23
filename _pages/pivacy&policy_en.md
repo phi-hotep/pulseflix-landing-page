@@ -83,48 +83,48 @@ The Company may use Personal Data for the following purposes:
 
 We may share Your Personal Data in the following situations:
 
-- __With Service Providers:__ We may share Your Personal Data with Service Providers to monitor and analyze the use of our Service,  to contact You.
+- __With the third-party services We use to operate the Application:__ We share specific categories of data with the service providers listed in the "Third-Party Services and Data Sharing" section below. That section names each provider, the data it receives, and links to its own privacy policy.
 - __For business transfers:__ We may share or transfer Your Personal Data in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
-- __With Affiliates:__ We may share Your Personal Data with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.
-- __With business partners:__ We may share Your Personal Data with Our business partners to offer You certain products, services or promotions.
-- __With other users:__ If Our Service offers public areas, when You share Personal Data or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
-- __With Your consent__: We may disclose Your Personal Data for any other purpose with Your consent.
+- __For legal reasons:__ We may disclose Your Personal Data where required to do so by law or in response to valid requests by public authorities, as described in the "Disclosure of Your Personal Data" section below.
+- __With Your consent:__ We may disclose Your Personal Data for any other purpose with Your consent.
+
+### Third-Party Services and Data Sharing
+
+To provide the Application, We rely on the third-party service providers listed below. This section names each provider, the data it receives, and links to its own privacy policy.
+
+__Analytics is opt-in and off by default.__ We do not collect analytics data through Firebase Analytics or Mixpanel unless You consent to analytics; if You never opt in, no analytics data is sent to these providers.
+
+- __Firebase (Google LLC)__ — We use Firebase for Authentication, Cloud Firestore, Analytics, and App Check.
+  - __Authentication:__ stores Your email address and an encrypted password (for email and password accounts), or Your Google account identifier (for Google sign-in).
+  - __Cloud Firestore:__ stores Your saved-movies list, in-app feedback You submit, and app-rating state, keyed to a pseudonymous account ID.
+  - __Analytics:__ collects app usage events, a pseudonymous identifier, and device and operating system information. Analytics is disabled by default and is only collected if You opt in. It is not used on desktop platforms.
+  - Firebase is governed by [Google's Privacy Policy](https://policies.google.com/privacy).
+
+- __Google Sign-In (Google LLC)__ — only if You choose to sign in with Google. Google Sign-In receives and returns Your name, email address, and basic Google profile information in order to authenticate You. Governed by [Google's Privacy Policy](https://policies.google.com/privacy).
+
+- __Mixpanel, Inc.__ — product analytics. Mixpanel is strictly opt-in: no data is sent to Mixpanel unless You consent to analytics. When enabled, it receives app interaction events (screens viewed, trailers played, searches started, list views, onboarding completion, and dark-mode toggle) associated with a pseudonymous account identifier — not Your email address or name. You can opt out at any time in Settings, which stops all Mixpanel collection. Governed by [Mixpanel's Privacy Policy](https://mixpanel.com/legal/privacy-policy/).
+
+- __Sentry (Functional Software, Inc.)__ — crash and error reporting, active in production builds only. When a crash or error occurs, Sentry receives error and exception reports, stack traces, in-app navigation breadcrumbs, device and operating system metadata, and the app environment name. Personal identifiers such as Your email address are not attached to these reports. Governed by [Sentry's Privacy Policy](https://sentry.io/privacy/).
+
+- __The Movie Database (TMDB)__ — movie catalog and trailer metadata provider. TMDB receives Your search query text and language preference in order to return results. TMDB does not receive Your account information. Governed by [TMDB's Privacy Policy](https://www.themoviedb.org/privacy-policy).
+
+- __YouTube (Google LLC)__ — movie trailers are played through the YouTube player. When You play a trailer, YouTube receives standard playback and device data under [Google's Privacy Policy](https://policies.google.com/privacy).
 
 ### Retention of Your Personal Data
 
 The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if We are required to retain Your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
 
-Where possible, We apply shorter retention periods and/or reduce identifiability by deleting, aggregating, or anonymizing data. Unless otherwise stated, the retention periods below are maximum periods ("up to") and We may delete or anonymize data sooner when it is no longer needed for the relevant purpose. We apply different retention periods to different categories of Personal Data based on the purpose of processing and legal obligations:
+- __Account data__ (Your Firebase Authentication identity and the content stored in Cloud Firestore — Your saved-movies list, in-app feedback, and app-rating state) is retained until You delete Your account. You can request deletion at any time; account-deletion requests are processed within 30 days. See [Delete Your PulseFlix Account and Data]({{ '/delete-account/' | relative_url }}) for how to request deletion.
 
-- Account Information
-  - User Accounts: retained for the duration of your account relationship plus up to 24 months after account closure to handle any post-termination issues or resolve disputes.
+- __Analytics and crash-report data__ (Firebase Analytics, Mixpanel, and Sentry) is retained according to each provider's own retention settings and policies. Because this data is opt-in and, where collected, tied to a pseudonymous identifier rather than Your name or email, We defer to each provider's retention configuration rather than stating a single fixed period here.
 
-- Customer Support Data
-  - Support tickets and correspondence: up to 24 months from the date of ticket closure to resolve follow-up inquiries, track service quality, and defend against potential legal claims
-  - Chat transcripts: up to 24 months for quality assurance and staff training purposes.
+We may retain certain Personal Data beyond the periods described above where We are required to do so by law, or where it is necessary to establish, exercise, or defend legal claims.
 
-- Usage Data
+When data is no longer needed, We securely delete or anonymize it:
 
-  - Application usage statistics: up to 24 months to understand feature adoption and service improvements.
-
-  - Server logs (IP addresses, access times): up to 24 months for security monitoring and troubleshooting purposes.
-
-Usage Data is retained in accordance with the retention periods described above, and may be retained longer only where necessary for security, fraud prevention, or legal compliance.
-
-We may retain Personal Data beyond the periods stated above for different reasons:
-
-- Legal obligation: We are required by law to retain specific data (e.g., financial records for tax authorities).
-- Legal claims: Data is necessary to establish, exercise, or defend legal claims.
-- Your explicit request: You ask Us to retain specific information.
-- Technical limitations: Data exists in backup systems that are scheduled for routine deletion.
-
-You may request information about how long We will retain Your Personal Data by contacting Us.
-
-When retention periods expire, We securely delete or anonymize Personal Data according to the following procedures:
-
-- Deletion: Personal Data is removed from Our systems and no longer actively processed.
-- Backup retention: Residual copies may remain in encrypted backups for a limited period consistent with our backup retention schedule and are not restored except where necessary for security, disaster recovery, or legal compliance.
-- Anonymization: In some cases, We convert Personal Data into anonymous statistical data that cannot be linked back to You. This anonymized data may be retained indefinitely for research and analytics.
+- __Deletion:__ Personal Data is removed from Our systems and no longer actively processed.
+- __Backup retention:__ Residual copies may remain in encrypted backups for a limited period consistent with our backup retention schedule and are not restored except where necessary for security, disaster recovery, or legal compliance.
+- __Anonymization:__ In some cases, We convert Personal Data into anonymous statistical data that cannot be linked back to You. This anonymized data may be retained indefinitely for research and analytics.
 
 ### Transfer of Your Personal Data
 
@@ -138,7 +138,7 @@ You have the right to delete or request that We assist in deleting the Personal 
 
 Our Service may give You the ability to delete certain information about You from within the Service.
 
-You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any Personal Data that You have provided to Us.
+You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any Personal Data that You have provided to Us. To delete Your account and all associated data, follow the instructions on our [Delete Your PulseFlix Account and Data]({{ '/delete-account/' | relative_url }}) page.
 
 Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.
 
