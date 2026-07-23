@@ -9,7 +9,7 @@ permalink: /delete-account/
 
 Last updated: July 23, 2026
 
-This page explains how to permanently delete your PulseFlix account and the data associated with it. You can use this process whether or not you still have the PulseFlix app installed — if you tapped "Delete account" inside the app, you were brought here, and if you have already uninstalled the app, this page works the same way.
+This page explains how to permanently delete your PulseFlix account and the data associated with it. You can use this process whether or not you still have the PulseFlix app installed. If you tapped "Delete account" inside the app, you were brought here, and if you have already uninstalled the app, this page works the same way.
 
 ## How to Request Deletion
 
@@ -17,11 +17,11 @@ Send an email to <hoteptechnology@gmail.com> **from the email address associated
 
 <a href="mailto:hoteptechnology@gmail.com?subject=Account%20deletion%20request">Email us to delete your account</a>
 
-The email itself is the entire request — you do not need to include anything else in the message.
+The email itself is the entire request; you do not need to include anything else in the message.
 
 ### What Happens Next
 
-We'll verify the request is from the account owner and process deletion — of the account and all associated data — within 30 days. You don't need to do anything else after sending the email.
+We'll verify the request is from the account owner and process deletion, of the account and all associated data, within 30 days. You don't need to do anything else after sending the email.
 
 ## What Gets Deleted
 
