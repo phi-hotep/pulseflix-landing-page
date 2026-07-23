@@ -648,7 +648,7 @@ footer {
 }
 
 .footerLinks a.nav-disabled {
-	opacity: 0.3;
+	color: $footer-text-color;
 	cursor: default;
 	pointer-events: none;
 }
